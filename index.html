@@ -6,31 +6,36 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
+
+	<link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
 
-	<header>
-		<nav>
-			<ul>
-				<li><a href="#">Главная</a></li>
-				<li><a href="#">Фото и видео</a></li>
+	<header class="page-header">
+		<nav class="page-header__nav container">
+			<ul class="page-header__list">
+				<li class="page-header__item"><a class="page-header__link" href="#">Главная</a></li>
+				<li class="page-header__item"><a class="page-header__link" href="#">Фото и видео</a></li>
 			</ul>
 
-			<a href="#"><img src="#" alt="Логотип."></a>
+			<a href="#" aria-current="page" class="page-header__logo">
+				<img src="./img/logo.svg" alt="Логотип." width="185" height="96">
+			</a>
 
-			<ul>
-				<li><a href="#">Форма отзыва</a></li>
-				<li><a href="#">HTML ACADEMY</a></li>
+			<ul class="page-header__list">
+				<li class="page-header__item"><a class="page-header__link" href="#">Форма отзыва</a></li>
+				<li class="page-header__item"><a class="page-header__link" href="#">HTML ACADEMY</a></li>
 			</ul>
 
-			<button type="button">
-				Показать меню.
+			<button type="button" class="page-header__nav-toggle">
+				<span class="visually-hidden">Показать меню.</span>
 			</button>
 		</nav>
 
-		<div>
-			<img src="#" alt="Текст 'Добро пожаловать в Седону' на английском языке.">
+		<div class="page-header__top container">
+			<img class="page-header__welcome" src="img/welcome.svg" alt="Текст 'Добро пожаловать в Седону' на английском языке."
+				width="282" height="214">
 		</div>
 	</header>
 
