@@ -34,16 +34,18 @@
 		</nav>
 
 		<div class="page-header__top container">
-			<img class="page-header__welcome" src="img/welcome.svg" alt="Текст 'Добро пожаловать в Седону' на английском языке."
-				width="282" height="214">
+			<img class="page-header__welcome" src="img/welcome.svg"
+				alt="Текст 'Добро пожаловать в Седону' на английском языке." width="282" height="214">
 		</div>
 	</header>
 
 	<main>
 		<section class="section-advantages">
-			<p class="section-advantages__title">СЕДОНА — небольшой городок в Аризоне, заслуживающий большего!</p>
-			<h1 class="section-advantages__subtitle">Рассмотрим 5 причин, по которым Седона круче, чем
-				Гранд каньон!</h1>
+			<div class="container">
+				<p class="section-advantages__title">СЕДОНА — небольшой городок в Аризоне, заслуживающий большего!</p>
+				<h1 class="section-advantages__subtitle">Рассмотрим 5 причин, по которым Седона круче, чем
+					Гранд каньон!</h1>
+			</div>
 
 			<ol class="section-advantages__advantages advantages">
 				<li class="advantages__item">
@@ -52,25 +54,27 @@
 						<p>— №1 —</p>
 						<p>Cедона не аттракцион для туристов, там течет своя жизнь</p>
 					</div>
-					<img class="advantages__img" src="#" alt="Вид отеля из кустов на фоне гор.">
+					<img class="advantages__img" src="./img/advantages-1.jpg" alt="Вид отеля из кустов на фоне гор." width="320"
+						height="260">
 
-					<ul class="advantages__sub-list">
-						<li class="advantages__sub-item">
-							<h3 class="advantages__sub-title">Жилье</h3>
+					<ul class="advantages__sub-list container">
+						<li class="advantages__item">
+							<h3 class="advantages__title">Жилье</h3>
 							<p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
 						</li>
-						<li class="advantages__sub-item">
-							<h3 class="advantages__sub-title">Eда</h3>
+						<li class="advantages__item">
+							<h3 class="advantages__title">Eда</h3>
 							<p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
 						</li>
-						<li class="advantages__sub-item">
-							<h3 class="advantages__sub-title">Сувениры</h3>
+						<li class="advantages__item">
+							<h3 class="advantages__title">Сувениры</h3>
 							<p>Не только китайского, но и местного производства!</p>
 						</li>
 					</ul>
 				</li>
 				<li class="advantages__item">
-					<img class="advantages__img" src="#" alt="Вид отеля из кустов на фоне гор.">
+					<img class="advantages__img" src="./img/advantages-2.jpg" alt="Вид отеля из кустов на фоне гор." width="320"
+						height="260">
 					<div class="advantages__article">
 						<h2 class="advantages__title">Там есть Мост дьявола</h2>
 						<p>— №2 —</p>
@@ -103,15 +107,18 @@
 	</main>
 
 	<div class="interest">
-		<p class="interest__title">Заинтересовались?</p>
-		<p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
+		<div class="container">
+			<p class="interest__title">Заинтересовались?</p>
+			<p class="interest__sub-title">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне
+			</p>
 
-		<a href="" class="btn interest__btn">Найти гостиницу</a>
+			<a href="" class="interest__btn btn">Найти гостиницу</a>
+		</div>
 	</div>
 
 	<footer class="page-footer">
 		<article class="page-footer__map map">
-			<img src="#" alt="Карта отелей в седоне." class="map__media">
+			<img src="./img/map.jpg" alt="Карта отелей в седоне." class="map__media" width="320" height="350">
 		</article>
 
 		<div class="page-footer__container container">
@@ -119,11 +126,14 @@
 
 			<ul class="page-footer__social-list social-list">
 				<li class="social-list__item"><a class="social-list__icon social-list__icon--vk" href="#">Вконтакте.</a></li>
-				<li class="social-list__item"><a class="social-list__icon social-list__icon--telegram" href="#">Телеграм.</a></li>
+				<li class="social-list__item"><a class="social-list__icon social-list__icon--telegram" href="#">Телеграм.</a>
+				</li>
 				<li class="social-list__item"><a class="social-list__icon social-list__icon--youtube" href="#">Youtube.</a></li>
 			</ul>
 
-			<p class="page-footer__developers">Разработано <img src="#" alt="Логотип HTML ACADEMY."></p>
+			<p class="page-footer__developers developers"><span>Разработано</span> <a href="#"><img
+						src="img/logo-htmlacademy.svg"
+						alt="Логотип HTML ACADEMY."></a></p>
 		</div>
 	</footer>
 
